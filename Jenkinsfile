@@ -6,7 +6,6 @@ pipeline {
                 sh 'mvn -B -DskipTests clean package' 
             }
         }
-    }
 
 
         stage('Test') {
@@ -19,4 +18,5 @@ pipeline {
                 }
             }
         }
+    }
 }
